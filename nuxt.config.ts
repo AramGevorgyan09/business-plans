@@ -1,6 +1,15 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
-  devtools: { enabled: true },
-  modules: ['@nuxt/eslint', '@nuxt/ui']
+  devtools: { enabled: false },
+  modules: ['@nuxt/eslint', '@nuxt/ui'],
+  app: {
+    head: {
+      title: 'Business Plans',
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/new-logo.png' }
+      ]
+    }
+  },
+  css: ['~/assets/css/main.css']
 })
