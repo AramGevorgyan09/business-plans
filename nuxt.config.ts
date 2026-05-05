@@ -7,6 +7,7 @@ export default defineNuxtConfig({
     preset: 'github-pages'
   },
   app: {
+    baseURL: '/business-plans/',
     head: {
       title: 'Business Plans',
       link: [
