@@ -6,6 +6,7 @@ export default defineNuxtConfig({
   nitro: {
     preset: 'github-pages'
   },
+  ssr: false,
   app: {
     baseURL: '/business-plans/',
     head: {
