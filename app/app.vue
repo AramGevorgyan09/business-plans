@@ -17,7 +17,7 @@ watch(applyWindow, () => {
 const businessPlans = ref<BusinessPlan[]>([
   {
     type: BusinessPlanTypes.New,
-    img: '/flowers.jpg',
+    img: '/business-plans/flowers.jpg',
     name: 'Գեղեցիկ ծաղիկ',
     price: 500,
     description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad modi saepe quam expedita, blanditiis possimus?',
@@ -30,7 +30,7 @@ const businessPlans = ref<BusinessPlan[]>([
   },
   {
     type: BusinessPlanTypes.Top,
-    img: '/flowers.jpg',
+    img: '/business-plans/flowers.jpg',
     name: 'Գեղեցիկ ծաղիկ',
     price: 500,
     description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad modi saepe quam expedita, blanditiis possimus?',
@@ -43,7 +43,7 @@ const businessPlans = ref<BusinessPlan[]>([
   },
   {
     type: BusinessPlanTypes.Recommended,
-    img: '/flowers.jpg',
+    img: '/business-plans/flowers.jpg',
     name: 'Գեղեցիկ ծաղիկ',
     price: 500,
     description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad modi saepe quam expedita, blanditiis possimus?',
@@ -56,7 +56,7 @@ const businessPlans = ref<BusinessPlan[]>([
   },
   {
     type: BusinessPlanTypes.New,
-    img: '/flowers.jpg',
+    img: '/business-plans/flowers.jpg',
     name: 'Գեղեցիկ ծաղիկ',
     price: 500,
     description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad modi saepe quam expedita, blanditiis possimus?',
@@ -69,7 +69,7 @@ const businessPlans = ref<BusinessPlan[]>([
   },
   {
     type: BusinessPlanTypes.Top,
-    img: '/flowers.jpg',
+    img: '/business-plans/flowers.jpg',
     name: 'Գեղեցիկ ծաղիկ',
     price: 500,
     description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad modi saepe quam expedita, blanditiis possimus?',
@@ -82,7 +82,7 @@ const businessPlans = ref<BusinessPlan[]>([
   },
   {
     type: BusinessPlanTypes.Recommended,
-    img: '/flowers.jpg',
+    img: '/business-plans/flowers.jpg',
     name: 'Գեղեցիկ ծաղիկ',
     price: 500,
     description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad modi saepe quam expedita, blanditiis possimus?',
