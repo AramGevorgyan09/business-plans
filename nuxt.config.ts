@@ -12,7 +12,7 @@ export default defineNuxtConfig({
     head: {
       title: 'Business Plans',
       link: [
-        { rel: 'icon', type: 'image/x-icon', href: '/new-logo.png' }
+        { rel: 'icon', type: 'image/x-icon', href: '/business-plans/new-logo.png' }
       ]
     }
   },
